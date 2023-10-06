@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-//import "hardhat/console.sol";
-
 contract Assessment {
     address payable public owner;
     uint256 public balance;
@@ -10,9 +8,9 @@ contract Assessment {
     event Deposit(uint256 amount);
     event Withdraw(uint256 amount);
 
-    constructor(uint initBalance) payable {
+    constructor() payable {
         owner = payable(msg.sender);
-        balance = initBalance;
+        balance = 1 ether; // Initialize the balance to 1 ETH in wei
     }
 
     function getBalance() public view returns(uint256){
