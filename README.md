@@ -4,7 +4,7 @@ This Solidity program is a simple program that demonstrates the functionality of
 
 ## Description
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.  It also used JS Script used in the front-end. The contract has deposit and withdrawal functions. It is a contract that can deposit or withdraw any amount given by the user.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.  It also used JS Script used in the front-end. The contract has cash-in and cash-out functions. It is a contract that can cash-in or cash-out any amount given by the user.
 
 ## Getting Started
 
