@@ -12,24 +12,23 @@ This program is a simple contract written in Solidity, a programming language us
 
 1. To run this program, you can use Gitpod, an online workspace. To get started, go to the Gitpod website at https://www.gitpod.io/.
 2. Once you are on the Gitpod website, add a new workspace, and paste the GitHub repository. Continue
-   
-4. Set up Metamask.
-5. Import any of the accounts provided in the second terminal, using the private key.
-   
-6. Go to Gitpod Ports beside the Terminal. Copy the New RPC URL.
-7. Click the 3 dots icon on the top right edge of Metamask.
-8. Go to Setting -> Network -> Add Network - > Add a Network Manually.
-9. Type any Network Name. Pase the New RPC URL.
-10. In the Chain ID, type: 31337.
-11. In the Currency symbol, type ETH.
-12. Save.
 
-13. Inside the project directory, in the terminal type: npm i
-14. Open two additional terminals in your VS code
-15. In the second terminal type: npx hardhat node
-16. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-17. Back in the first terminal, type npm run dev to launch the front-end.
-18. After this, the project will be running on your local host. Typically at http://localhost:3000/
+3. Inside the project directory, in the terminal type: npm i
+4. Open two additional terminals in your VS code
+5. In the second terminal type: npx hardhat node
+6. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+7. Back in the first terminal, type npm run dev to launch the front-end.
+8. After this, the project will be running on your local host. Typically at http://localhost:3000/
+   
+9. Set up Metamask.
+10. Import any of the accounts provided in the second terminal, using the private key.
+11. Go to Gitpod Ports beside the Terminal. Copy the New RPC URL.
+12. Click the 3 dots icon on the top right edge of Metamask.
+13. Go to Setting -> Network -> Add Network - > Add a Network Manually.
+14. Type any Network Name. Pase the New RPC URL.
+15. In the Chain ID, type: 31337.
+16. In the Currency symbol, type ETH.
+17. Save.
 
 
 ## License
